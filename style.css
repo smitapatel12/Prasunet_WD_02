@@ -1,0 +1,95 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(3,1,31);
+    background: linear-gradient(90deg, rgba(3,1,31,1) 0%, rgba(44,44,116,0.9672830725462305) 39%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('st2.jpg'); /* Update the path as needed */
+    background-size: cover; /* Ensure the image covers the whole background */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; 
+   
+}
+
+
+.stopwatch {
+    background: rgb(195,186,142);
+background: linear-gradient(169deg, rgba(195,186,142,1) 0%, rgba(31,23,23,1) 100%);
+    box-shadow: 2px 8px 16px rgba(229, 209, 209, 0.6);
+    padding: 50px;
+    text-align: center;
+    width: 400px;
+    border-radius: 1.5vh;
+    font-weight: bold;
+    
+}
+
+.display {
+    font-size:large;
+    margin-bottom: 20px;
+    color: #333;
+    
+    
+    
+}
+
+.controls {
+    margin-bottom: 20px;
+    
+      
+    
+}
+
+#startPause {
+    background-color: #4CAF50;
+}
+
+#reset {
+    background-color: red;
+}
+
+#lap {
+    background-color: blue;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button#startPause:hover,
+button#reset:hover,
+button#lap:hover {
+    background-color: #3a4445;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #d9ead9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+}
+
+ul li {
+    padding: 10px;
+    background-color: #d9dff8;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
